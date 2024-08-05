@@ -15,6 +15,12 @@ git clone https://github.com/abyanmajid/hack-starter.git
 cd hack-starter
 ```
 
+Initialize environment variables in `.env`
+
+```
+cp .env.default .env
+```
+
 Have two terminals open to serve the frontend and backend respectively. To start the frontend, execute
 
 ```
