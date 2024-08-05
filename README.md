@@ -8,7 +8,14 @@ This starter uses React + Vite in the frontend, and Express.js in the backend.
 - NPM (v10 or later)
 - Docker Engine (may not be needed)
 
-Open two terminals to serve the frontend and backend respectively. To start the frontend, execute
+To get started, clone the repository
+
+```
+git clone https://github.com/abyanmajid/hack-starter.git
+cd hack-starter
+```
+
+Have two terminals open to serve the frontend and backend respectively. To start the frontend, execute
 
 ```
 make serve-frontend
