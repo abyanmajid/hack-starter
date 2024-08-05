@@ -6,6 +6,7 @@ This starter uses React + Vite in the frontend, and Express.js in the backend.
 
 - Node.js (v20 or later)
 - NPM (v10 or later)
+- Docker Engine (may not be needed)
 
 Open two terminals to serve the frontend and backend respectively. To start the frontend, execute
 
