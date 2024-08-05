@@ -2,6 +2,11 @@
 
 This starter uses React + Vite in the frontend, and Express.js in the backend.
 
+**Required Installations:**
+
+- Node.js (v20 or later)
+- NPM (v10 or later)
+
 Open two terminals to serve the frontend and backend respectively. To start the frontend, execute
 
 ```
