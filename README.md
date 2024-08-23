@@ -1,6 +1,9 @@
 # Quickstart
 
-This starter uses React + Vite in the frontend, and Express.js in the backend.
+**Tech stack:**
+
+- Frontend: React + Vite + Tailwind CSS + Mantine UI
+- Backend: Express.js + Postgres or MongoDB
 
 **Required Installations:**
 
@@ -33,11 +36,9 @@ To start the backend, execute
 make serve-backend
 ```
 
-**UI Library:** We're using [Mantine UI](https://mantine.dev/) as the component library for the frontend. It provides free [prebuilt designs](https://ui.mantine.dev/) for annoying stuff like navigation bars and notifications.
-
 ## Database
 
-Should we need a database, there are scripts for starting PostgreSQL and MongoDB as docker containers.
+Scripts to start and stop docker containers for Postgres and Mongo: 
 
 - `make postgres-up` : Start postgres in a container
 - `make postgres-down` : Stop postgres container
@@ -46,7 +47,7 @@ Should we need a database, there are scripts for starting PostgreSQL and MongoDB
 
 ## Local mail sending
 
-Should we have a mail-sending feature, there is a script for starting a local email storage using mailhog in a container.
+Mailhog serves a local email registry at port 8025 - If ever there is a use case that needs email sending.
 
 - `make mailhog-up` : Start mailhog in a container
 - `make mailhog-down` : Stop mailhog container
